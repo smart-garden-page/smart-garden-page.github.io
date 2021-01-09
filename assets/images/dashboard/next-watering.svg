@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Group_13" data-name="Group 13" transform="translate(-137 -169)">
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="16" cy="16" r="16" transform="translate(137 169)" fill="#333"/>
+    <path id="ic_schedule_24px" d="M11.073,2a9.083,9.083,0,1,0,9.092,9.083A9.078,9.078,0,0,0,11.073,2Zm.009,16.349a7.266,7.266,0,1,1,7.266-7.266A7.264,7.264,0,0,1,11.083,18.349Zm.454-11.807H10.174v5.45l4.768,2.861.681-1.117L11.537,11.31Z" transform="translate(142 174)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+@import "../variables";
+
+$grid-gutter-width: 24px;
+
+$container-max-widths: (
+  sm: $screen-sm-min * 1px,
+  md: $screen-md-min * 1px,
+  lg: $screen-lg-min * 1px,
+  xl: $screen-xl-min * 1px,
+  xxl: $screen-xxl-min * 1px
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: $screen-sm-min + ($container-sm-additional-spacing * 2) * 1px,
+  md: $screen-md-min + ($container-md-additional-spacing * 2)  * 1px,
+  lg: $screen-lg-min + ($container-lg-additional-spacing * 2)  * 1px,
+  xl: $screen-xl-min + ($container-xl-additional-spacing * 2)  * 1px,
+  xxl: $screen-xxl-min + ($container-xxl-additional-spacing * 2) * 1px
+);

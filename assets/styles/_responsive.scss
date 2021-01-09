@@ -1,0 +1,49 @@
+@import "mixins";
+@import "functions";
+@import "variables";
+
+@include xs() {
+  $_base: 12;
+  
+  html {
+    font-size: #{$_base}px;
+  }
+
+  @include defineSpacings(null, $_base);
+}
+
+@include sm() {
+  $_base: 12;
+  
+  html {
+    font-size: #{$_base}px;
+  }
+
+  @include defineSpacings( 'sm', $_base );
+}
+
+@include md() {
+  $_base: 12;
+
+  html {
+    font-size: #{$_base}px;
+  }
+
+  @include defineSpacings('md', $_base);
+}
+
+@include lg() {
+  html {
+    font-size: #{$base}px;
+  }
+
+  @include defineSpacings('lg', $base);
+}
+
+@include xl() {
+  @include defineSpacings( 'xl', $base );
+}
+
+@include xxl() {
+  @include defineSpacings( 'xxl', $base );
+}

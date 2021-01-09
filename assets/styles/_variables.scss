@@ -1,0 +1,34 @@
+$base: 14;
+
+// $color-main: #3A3A3A;
+// $color-second: #EBECE9;
+// $color-third: #9FAB8E;
+$color-main: #333;
+$color-second: #D2D2D2;
+$color-third: #B0B0B0;
+$color-fourth: #333;
+
+$color-background: #F7F7F7;
+$color-border: #e6e6e6;
+$color-border-light: #F1F1F1;
+$color-white: #FFF;
+$color-light-gray: #C4C4C4;
+$color-blue: #00CEFF;
+
+$screen-xs-min: 0;
+$screen-xs-max: 539;
+$screen-sm-min: 540;
+$screen-md-min: 720;
+$screen-lg-min: 960;
+$screen-xl-min: 1140;
+$screen-xxl-min: 1368;
+
+// width (from above) + spacing * 2 = breakpoint
+$container-sm-additional-spacing: 78;
+$container-md-additional-spacing: 84;
+$container-lg-additional-spacing: 76;
+$container-xl-additional-spacing: 90;
+$container-xxl-additional-spacing: 92;
+
+$spacings: ('zero', 0), ('centi', 8), ('deci', 16), ('deca', 24), ('hecto', 32), ('kilo', 40), ('mega', 48),
+  ('giga', 64), ('tera', 72), ('peta', 96), ('exa', 120), ('zetta', 150), ('yotta', 216);
